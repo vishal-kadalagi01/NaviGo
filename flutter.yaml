@@ -1,0 +1,12 @@
+flutter:
+  assets:
+    - assets/
+
+# Define the flavors for the application
+flavors:
+  student:
+    entrypoint: lib/main_student.dart
+  driver:
+    entrypoint: lib/main_driver.dart
+  admin:
+    entrypoint: lib/main_admin.dart
